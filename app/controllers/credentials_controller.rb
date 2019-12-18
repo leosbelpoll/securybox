@@ -1,6 +1,6 @@
 class CredentialsController < ApplicationController
 	def index
-		@credentials = Credentials.All
+		@credentials = Credential.all
 		render json: @credentials
 	end
 end
