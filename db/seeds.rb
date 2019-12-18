@@ -5,3 +5,23 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Credential.create!(
+	name: "SecretKey",
+	description: ""
+)
+
+Credential.create!(
+	name: "OTP",
+	description: ""
+)
+
+Credential.create!(
+	name: "Certificate",
+	description: ""
+)
+
+Credential.create!(
+	name: "Biometric",
+	description: ""
+)
